@@ -1,22 +1,26 @@
 /* GENERAL STYLE */
-nav {
+header nav {
     height: 70px;
     /* debug */
     background-color: gray;
 }
 
+main {
+    height: calc(100vh - 70px);
+}
+
 aside {
     height: calc(100vh - 70px);
     width: 80px;
+    position: ;
     /* debug */
     background-color: blue;
 }
 
-main {
-    height: calc(100vh - 70px);
+.ms-main-container {
     width: calc(100vw - 80px);
     /* debug */
-    background-color: azure;
+    background-color: lightgreen;
 }
 
 /* NAVBAR STYLE */
@@ -41,7 +45,7 @@ main {
         width: 100px;
     }
 
-    main {
+    .ms-main-container {
         width: calc(100vw - 100px);
     }
 
