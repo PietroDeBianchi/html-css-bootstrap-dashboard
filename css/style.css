@@ -1,4 +1,5 @@
-header {
+/* GENERAL STYLE */
+nav {
     height: 70px;
     /* debug */
     background-color: gray;
@@ -16,4 +17,32 @@ main {
     width: calc(100vw - 80px);
     /* debug */
     background-color: azure;
+}
+
+/* NAVBAR STYLE */
+.ms-nav-logo {
+    width: 10%;
+
+}
+
+.ms-nav-logo img {
+    width: 90%;
+
+}
+
+.ms-nav-link .navbar {
+    width: 15%;
+    list-style-type: none;
+}
+
+@media all and (min-width: 992px) {
+
+    aside {
+        width: 100px;
+    }
+
+    main {
+        width: calc(100vw - 100px);
+    }
+
 }
