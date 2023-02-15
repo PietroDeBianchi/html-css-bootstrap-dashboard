@@ -1,0 +1,19 @@
+header {
+    height: 70px;
+    /* debug */
+    background-color: gray;
+}
+
+aside {
+    height: calc(100vh - 70px);
+    width: 80px;
+    /* debug */
+    background-color: blue;
+}
+
+main {
+    height: calc(100vh - 70px);
+    width: calc(100vw - 80px);
+    /* debug */
+    background-color: azure;
+}
