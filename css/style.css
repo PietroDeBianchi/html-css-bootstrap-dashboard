@@ -24,14 +24,17 @@ aside {
 }
 
 /* NAVBAR STYLE */
-.ms-nav-logo {
-    width: 10%;
+.ms-nav-container {
+    height: 100%;
+}
+
+.ms-small-logo {
+    width: 48px;
 
 }
 
-.ms-nav-logo img {
-    width: 90%;
-
+.ms-big-logo {
+    display: none;    
 }
 
 .ms-nav-link .navbar {
@@ -47,6 +50,14 @@ aside {
 
     .ms-main-container {
         width: calc(100vw - 100px);
+    }
+
+    .ms-big-logo {
+        display: inline-block;
+    }
+
+    .ms-small-logo {
+        display: none;
     }
 
 }
