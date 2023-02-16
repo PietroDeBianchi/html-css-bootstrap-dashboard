@@ -1,63 +1,41 @@
 /* GENERAL STYLE */
-header nav {
-    height: 70px;
-    /* debug */
-    background-color: gray;
-}
-
-main {
-    height: calc(100vh - 70px);
+header {
+    height: 80px;
 }
 
 aside {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     width: 80px;
-    position: ;
-    /* debug */
-    background-color: blue;
 }
 
-.ms-main-container {
+#ms-main-container {
+    height: calc(100vh - 80px);
     width: calc(100vw - 80px);
-    /* debug */
-    background-color: lightgreen;
 }
 
-/* NAVBAR STYLE */
-.ms-nav-container {
-    height: 100%;
-}
-
-.ms-small-logo {
-    width: 48px;
-
-}
-
-.ms-big-logo {
-    display: none;    
-}
-
-.ms-nav-link .navbar {
-    width: 15%;
-    list-style-type: none;
-}
+/* RESPONSIVE */
 
 @media all and (min-width: 992px) {
-
     aside {
-        width: 100px;
+        width: 110px;
     }
 
-    .ms-main-container {
-        width: calc(100vw - 100px);
+    #ms-main-container {
+        width: calc(100vw - 110px);
     }
 
-    .ms-big-logo {
-        display: inline-block;
-    }
+}
 
-    .ms-small-logo {
-        display: none;
-    }
+/* DEBUG */
 
+.debug header {
+    background-color: gray;
+}
+
+.debug aside {
+    background-color: lightcoral;
+}
+
+.debug #ms-main-container {
+    background-color: lightgreen;
 }
