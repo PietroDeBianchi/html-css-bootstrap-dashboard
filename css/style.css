@@ -14,6 +14,10 @@ main {
     padding-top: 80px; /* considering the height of the <header> */
 }
 
+a {
+    text-decoration: none;
+}
+
 #ms-main-container {
     height: calc(100vh - 80px);
     padding-left: 80px;

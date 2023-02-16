@@ -16,38 +16,55 @@
     <header class="d-flex align-items-center justify-content-around position-fixed w-100">
         <nav class="navbar bg-body-tertiary w-100">
             <div class="container-fluid">
-              <a class="navbar-brand me-2"><img src="img/mobile-logo.png" alt="mobile-logo" class="ms-nav-logo"></a>
-              <form role="search" class="flex-fill">
+                <a class="navbar-brand me-2"><img src="img/mobile-logo.png" alt="mobile-logo" class="ms-nav-logo d-lg-none"></a>
+                <a class="navbar-brand me-2"><img src="img/logo.svg" alt="mobile-logo" class="d-none d-lg-block"></a>
+                <form role="search" class="flex-fill">
                     <input class="form-control me-2 mw-100" type="search" placeholder="Search for Bootstrap contents..." aria-label="Search">
-              </form>
-              <ul class="navbar-nav ms-2">
-                <li class="nav-item">
-                  <a class="nav-link active text-warning" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
-                </li>
-              </ul>
+                </form>
+                <ul class="navbar-nav d-flex flex-row ms-2">
+                    <li class="nav-item px-2 d-none d-lg-block">
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-list"></i></a>
+                    </li>
+                    <li class="nav-item px-2 d-none d-lg-block">
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                    </li>
+                    <li class="nav-item px-2 d-none d-lg-block">
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active text-warning" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                </ul>
             </div>
-          </nav>
+        </nav>
             
     </header>
 
     <main>
-
         <aside class="d-flex flex-column justify-content-between position-fixed">
-            <section id="ms-aside-top" class="d-flex flex-column align-items-center mt-2 fs-4">
+            <section id="ms-aside-top" class="d-flex flex-column align-items-center fs-6 mt-2">
                 <div class="my-2">
-                    <a href="#" class="text-light"><i class="fa-solid fa-house"></i></a>
+                    <a href="#" class="text-light"><i class="fa-solid fa-house"></i>
+                        <span class="d-none d-lg-inline ps-2">Home</span>
+                    </a>
                 </div>
                 <div class="my-2">
-                    <a href="#" class="text-light"><i class="fa-solid fa-chart-simple"></i></a>
+                    <a href="#" class="text-light"><i class="fa-solid fa-chart-simple"></i>
+                        <span class="d-none d-lg-inline ps-2">Stats</span>
+                    </a>
                 </div>
                 <div class="my-2">
-                    <a href="#" class="text-light"><i class="fa-solid fa-signal"></i></a>
+                    <a href="#" class="text-light"><i class="fa-solid fa-signal"></i>
+                        <span class="d-none d-lg-inline ps-2">Signal</span>
+                    </a>
                 </div>
             </section>
 
-            <section id="ms-aside-bottom" class="d-flex justify-content-center fs-4">
+            <section id="ms-aside-bottom" class="d-flex justify-content-center fs-6">
                 <div class="my-2">
-                    <a href="#" class="text-light"><i class="fa-solid fa-gear"></i></a>
+                    <a href="#" class="text-light"><i class="fa-solid fa-gear"></i>
+                        <span class="d-none d-lg-inline ps-2">Admin</span>
+                    </a>
                 </div>
             </section>
         </aside>
@@ -59,14 +76,13 @@
                 <div><span>studenti online negli ultimi 30 minuti</span><h5>125</h5></div>
             </div>
 
-
             <div class="container-fluid overflow-auto">
                 <div class="row m-2">
-                    <div class="col-12 col-lg-9">
+                    <div class="col-12 col-lg-9" id="ms-right-column">
 
-                        <div class="card" id="ms-next-class">
+                        <div class="card mt-4" id="ms-next-class">
                             <h5 class="card-header">Prossime Classi</h5>
-                            <div class="card-body">
+                            <div class="card-body overflow-x-auto">
                                 <table class="table table-hover">
                                     <thead>
                                       <tr>
@@ -104,7 +120,7 @@
                             </div>
                         </div>
 
-                        <div class="card" id="ms-faq">
+                        <div class="card mt-4" id="ms-faq">
                             <div class="card-header">
                               <strong>F.A.Q.</strong>
                             </div>
@@ -145,8 +161,9 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-3">
-                        <div class="card" id="ms-todo">
+                    <div class="col-12 col-lg-3" id="ms-left-column">
+
+                        <div class="card mt-4" id="ms-todo">
                             <div class="card-header">
                               <strong>TO DO</strong>
                             </div>
@@ -172,7 +189,7 @@
                             </div>
                         </div>
 
-                        <div class="card" id="ms-statics">
+                        <div class="card mt-4" id="ms-statics">
                             <img src="img/stats.jpeg" class="card-img-stats" alt="">
                             <div class="card-body">
                               <h5 class="card-title">Card title</h5>
@@ -195,7 +212,6 @@
                 </div>
 
             </div>
-
 
         </div>
 
