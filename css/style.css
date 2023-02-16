@@ -35,6 +35,11 @@ a {
 }
 
 /* MAIN STYLE */
+
+/* MS-BLUE-BAN STYLE */
+#ms-blue-ban .badge {
+    background-color: #0D47B0;
+}
 /* MS-NEXT-CLASS STYLE */
 table img {
     width: 30px;
