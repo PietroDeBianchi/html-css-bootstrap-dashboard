@@ -25,6 +25,11 @@ main {
     height: auto;
 }
 
+#ms-blue-ban {
+    background-color: #3870E0;
+    min-height: 100px;
+}
+
 /* RESPONSIVE */
 @media all and (min-width: 992px) {
     aside {
@@ -38,9 +43,3 @@ main {
 }
 
 /* DEBUG  */
-
-.row div {
-    border: 1 px solid black;
-    background-color: gray;
-    height: 3000px;
-}
