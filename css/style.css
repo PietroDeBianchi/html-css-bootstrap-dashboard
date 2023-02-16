@@ -6,7 +6,7 @@ header {
 
 aside {
     height: calc(100vh - 80px);
-    width: 80px;
+    width: 70px;
     background-color: #0B1D32;
 }
 
@@ -20,7 +20,7 @@ a {
 
 #ms-main-container {
     height: calc(100vh - 80px);
-    padding-left: 80px;
+    padding-left: 70px;
 }
 
 /* NAV-BAR STYLE */
