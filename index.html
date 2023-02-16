@@ -13,14 +13,45 @@
 </head>
 <body class="debug">
 
-    <header>
+    <header class="d-flex align-items-center justify-content-around">
+        <nav class="navbar bg-body-tertiary w-100">
+            <div class="container-fluid">
+              <a class="navbar-brand me-2"><img src="img/mobile-logo.png" alt="mobile-logo" class="ms-nav-logo"></a>
+              <form role="search" class="flex-fill">
+                    <input class="form-control me-2 mw-100" type="search" placeholder="Search for Bootstrap contents..." aria-label="Search">
+              </form>
+              <ul class="navbar-nav ms-2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
             
     </header>
 
     <main class="d-flex">
-        <aside>
 
+        <aside class="d-flex flex-column justify-content-between">
+            <section id="ms-aside-top" class="d-flex flex-column align-items-center mt-2 fs-4">
+                <div class="my-2">
+                    <a href="#" class="text-light"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <div class="my-2">
+                    <a href="#" class="text-light"><i class="fa-solid fa-chart-simple"></i></a>
+                </div>
+                <div class="my-2">
+                    <a href="#" class="text-light"><i class="fa-solid fa-signal"></i></a>
+                </div>
+            </section>
+
+            <section id="ms-aside-bottom" class="d-flex justify-content-center fs-4">
+                <div class="my-2">
+                    <a href="#" class="text-light"><i class="fa-solid fa-gear"></i></a>
+                </div>
+            </section>
         </aside>
+
         <div id="ms-main-container">
 
         </div>

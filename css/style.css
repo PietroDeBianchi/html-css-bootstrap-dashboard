@@ -6,6 +6,7 @@ header {
 aside {
     height: calc(100vh - 80px);
     width: 80px;
+    background-color: #0B1D32;
 }
 
 #ms-main-container {
@@ -13,8 +14,13 @@ aside {
     width: calc(100vw - 80px);
 }
 
-/* RESPONSIVE */
+/* NAV-BAR STYLE */
+.ms-nav-logo {
+    width: 2.4rem;
+    height: auto;
+}
 
+/* RESPONSIVE */
 @media all and (min-width: 992px) {
     aside {
         width: 110px;
@@ -26,16 +32,4 @@ aside {
 
 }
 
-/* DEBUG */
-
-.debug header {
-    background-color: gray;
-}
-
-.debug aside {
-    background-color: lightcoral;
-}
-
-.debug #ms-main-container {
-    background-color: lightgreen;
-}
+/* DEBUG  */
