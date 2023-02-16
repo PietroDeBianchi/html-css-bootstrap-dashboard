@@ -1,6 +1,7 @@
 /* GENERAL STYLE */
 header {
     height: 80px;
+    background-color: white;
 }
 
 aside {
@@ -9,9 +10,13 @@ aside {
     background-color: #0B1D32;
 }
 
+main {
+    padding-top: 80px; /* considering the height of the <header> */
+}
+
 #ms-main-container {
     height: calc(100vh - 80px);
-    width: calc(100vw - 80px);
+    padding-left: 80px;
 }
 
 /* NAV-BAR STYLE */
@@ -27,9 +32,15 @@ aside {
     }
 
     #ms-main-container {
-        width: calc(100vw - 110px);
+        padding-left: 110px;
     }
 
 }
 
 /* DEBUG  */
+
+.row div {
+    border: 1 px solid black;
+    background-color: gray;
+    height: 3000px;
+}

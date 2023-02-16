@@ -13,7 +13,7 @@
 </head>
 <body class="debug">
 
-    <header class="d-flex align-items-center justify-content-around">
+    <header class="d-flex align-items-center justify-content-around position-fixed w-100">
         <nav class="navbar bg-body-tertiary w-100">
             <div class="container-fluid">
               <a class="navbar-brand me-2"><img src="img/mobile-logo.png" alt="mobile-logo" class="ms-nav-logo"></a>
@@ -22,7 +22,7 @@
               </form>
               <ul class="navbar-nav ms-2">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
+                  <a class="nav-link active text-warning" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
                 </li>
               </ul>
             </div>
@@ -30,9 +30,9 @@
             
     </header>
 
-    <main class="d-flex">
+    <main>
 
-        <aside class="d-flex flex-column justify-content-between">
+        <aside class="d-flex flex-column justify-content-between position-fixed">
             <section id="ms-aside-top" class="d-flex flex-column align-items-center mt-2 fs-4">
                 <div class="my-2">
                     <a href="#" class="text-light"><i class="fa-solid fa-house"></i></a>
@@ -53,6 +53,19 @@
         </aside>
 
         <div id="ms-main-container">
+            <div class="container-fluid overflow-auto">
+                <div class="row m-2">
+                    <div class="col-12 col-lg-9">
+
+                    </div>
+                    <div class="col-12 col-lg-3">
+
+                    </div>
+
+                </div>
+
+            </div>
+
 
         </div>
 
