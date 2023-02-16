@@ -34,6 +34,14 @@ a {
     min-height: 100px;
 }
 
+/* MAIN STYLE */
+/* MS-NEXT-CLASS STYLE */
+table img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* RESPONSIVE */
 @media all and (min-width: 992px) {
     aside {
