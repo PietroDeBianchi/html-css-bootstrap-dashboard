@@ -31,8 +31,8 @@
                     <li class="nav-item px-2 d-none d-lg-block">
                         <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell"></i>
                         </a>
                         <ul class="dropdown-menu position-absolute">
@@ -49,17 +49,17 @@
     <main>
         <aside class="d-flex flex-column justify-content-between position-fixed py-2">
             <section id="ms-aside-top" class="d-flex flex-column align-items-center fs-6 mt-2 text-center">
-                <div class="my-2 w-100">
+                <div class="my-2 w-75 p-1">
                     <a href="#" class="text-light"><i class="fa-solid fa-house"></i>
                         <span class="d-none d-lg-inline ps-2">Home</span>
                     </a>
                 </div>
-                <div class="my-2 w-100">
+                <div class="my-2 w-75 p-1">
                     <a href="#" class="text-light"><i class="fa-solid fa-chart-simple"></i>
                         <span class="d-none d-lg-inline ps-2">Stats</span>
                     </a>
                 </div>
-                <div class="my-2 w-100">
+                <div class="my-2 w-75 p-1">
                     <a href="#" class="text-light"><i class="fa-solid fa-signal"></i>
                         <span class="d-none d-lg-inline ps-2">Signal</span>
                     </a>
@@ -67,7 +67,7 @@
             </section>
 
             <section id="ms-aside-bottom" class="d-flex justify-content-center text-center fs-6">
-                <div class="my-2 w-100">
+                <div class="my-2 w-75 p-1">
                     <a href="#" class="text-light"><i class="fa-solid fa-gear"></i>
                         <span class="d-none d-lg-inline ps-2">Admin</span>
                     </a>
@@ -76,14 +76,14 @@
         </aside>
 
         <div id="ms-main-container">
-            <section id="ms-blue-ban" class="d-lg-flex justify-content-between alig-items-center text-light p-2 pe-5 position-relative">
+            <section id="ms-blue-ban" class="d-lg-flex justify-content-between alig-items-center text-light ps-2 pe-5 py-4">
                 <div class="my-3 order-3 d-lg-inline">Nuovo Studente
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <a href="" class="text-light border border-white rounded ms-2 px-2 py-1 modal-dialog modal-dialog-scrollable">+</a>
+                    <button type="button" class="btn btn-outline-light ms-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="ms-form-btn">
+                        +
                     </button>
                     <div class="modal fade text-dark" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-fullscreen-md-down">
-                            <div class="modal-content">
+                            <div class="modal-content position-absolute top-0 end-0">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Inserisci un nuovo studente</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -98,7 +98,7 @@
                                             <label for="inputPassword4" class="form-label">Cognome</label>
                                             <input type="text" class="form-control" id="inputPassword4">
                                         </div>
-                                        <div class="col-md-6 my-1">
+                                        <div class="col-md-6 my-1 d-sm-none d-md-block">
                                             <label for="inputPassword4" class="form-label">Email</label>
                                             <div class="input-group">
                                             <div class="input-group-text">@</div>
@@ -165,9 +165,9 @@
                 </div>
                 <div class="my-3 me-2 order-1 d-lg-inline">
                     <span class="fs-5">Boolean</span>
-                    <span class="badge">Piano blaze</span>
+                    <span class="badge mx-1">Piano blaze</span>
                     <div class="d-flex align-items-center">
-                        <span class="badge">Piano blaze</span>
+                        <span class="badge mx-1">Piano blaze</span>
                         <i class="fa-solid fa-angles-right px-1"></i>
                         <span class="badge d-xl-none">+</span>
                         <div class="d-none d-xl-flex">

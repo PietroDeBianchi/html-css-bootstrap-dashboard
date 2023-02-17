@@ -65,24 +65,18 @@ table img {
     text-decoration: underline;
 }
 
-aside .my-2::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: white;
-    transform: scaleY(0);
-    transition: transform 0.4s ease;
+aside .my-2:hover {
+    background-color: gray;
 }
 
-aside .my-2:hover::after {
-    transform: scaleY(1);
+#ms-form-btn:hover a {
+    background-color: white;
+    color: black;
 }
 
 
 /* RESPONSIVE */
+
 @media all and (min-width: 992px) {
     aside {
         width: 110px;
@@ -93,9 +87,6 @@ aside .my-2:hover::after {
     }
 
     #ms-blue-ban .modal-content {
-        position: absolute;
-        left: 95%;
-        top: 0;
         height: 100vh;
     }
 
