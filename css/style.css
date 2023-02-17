@@ -35,6 +35,10 @@ a {
 }
 
 /* MAIN STYLE */
+/* ASIDE STYLE */
+aside .my-2 {
+    position: relative;
+}
 
 /* MS-BLUE-BAN STYLE */
 #ms-blue-ban .badge {
@@ -48,16 +52,31 @@ table img {
 }
 
 /* MS-TODO STYLE */
-
 #ms-todo .card-body {
     font-size: 14px;
 }
 
 /* HOVER STYLE */
-
 #ms-statics .card-link:hover {
     text-decoration: underline;
 }
+
+aside .my-2::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    transform: scaleY(0);
+    transition: transform 0.4s ease;
+}
+
+aside .my-2:hover::after {
+    transform: scaleY(1);
+}
+
 
 /* RESPONSIVE */
 @media all and (min-width: 992px) {
