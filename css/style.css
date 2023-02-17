@@ -47,6 +47,18 @@ table img {
     border-radius: 50%;
 }
 
+/* MS-TODO STYLE */
+
+#ms-todo .card-body {
+    font-size: 14px;
+}
+
+/* HOVER STYLE */
+
+#ms-statics .card-link:hover {
+    text-decoration: underline;
+}
+
 /* RESPONSIVE */
 @media all and (min-width: 992px) {
     aside {
