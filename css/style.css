@@ -92,6 +92,13 @@ aside .my-2:hover::after {
         padding-left: 110px;
     }
 
+    #ms-blue-ban .modal-content {
+        position: absolute;
+        left: 95%;
+        top: 0;
+        height: 100vh;
+    }
+
 }
 
 /* DEBUG  */
