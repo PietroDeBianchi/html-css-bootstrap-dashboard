@@ -77,6 +77,15 @@ aside .my-2:hover {
 
 /* RESPONSIVE */
 
+@media all and (min-width: 768px) {
+
+    #ms-blue-ban .modal-content {
+        height: 100vh;
+        width: 50%;
+    }
+
+}
+
 @media all and (min-width: 992px) {
     aside {
         width: 110px;
@@ -84,11 +93,6 @@ aside .my-2:hover {
 
     #ms-main-container {
         padding-left: 110px;
-    }
-
-    #ms-blue-ban .modal-content {
-        height: 100vh;
-        width: 50%;
     }
 
 }
